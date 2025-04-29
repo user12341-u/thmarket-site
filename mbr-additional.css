@@ -1143,7 +1143,7 @@ a {
 .cid-uJaX3pqO1U {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #f0f0f0;
+  background-color:#f0f0f0;
 }
 .cid-uJaX3pqO1U .mbr-fallback-image.disabled {
   display: none;
@@ -1157,26 +1157,33 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-uJaX3pqO1U .mbr-iconfont {
-  display: block;
-  font-size: 5rem;
-  color: #05386b;
-  margin-bottom: 2rem;
+.cid-uJaX3pqO1U .image-wrapper {
+  display: flex;
+  align-items: center;
 }
 .cid-uJaX3pqO1U .card-wrapper {
-  padding: 3rem;
-  background: #fafafa;
+  margin-bottom: 2rem;
+  display: flex;
   border-radius: 4px;
+  background: #fafafa;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .cid-uJaX3pqO1U .card-wrapper {
-    margin-bottom: 2rem;
+    padding: 1rem 2rem;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 992px) {
   .cid-uJaX3pqO1U .card-wrapper {
-    padding: 3rem 1rem;
+    padding: 2rem 4rem;
   }
+}
+.cid-uJaX3pqO1U .mbr-iconfont {
+  font-size: 2rem;
+  padding-right: 1.5rem;
+  color: #05386b;
+}
+.cid-uJaX3pqO1U p {
+  color: #05386b;
 }
 .cid-uJaX3pqO1U .card-title {
   color: #05386b;
