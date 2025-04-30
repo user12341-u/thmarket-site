@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Your Submission</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Om du har en extern CSS-fil -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Thank You!</h1>
+            <p>Your request has been successfully submitted. We will review your request and get back to you shortly.</p>
+            <p>If you need further assistance, feel free to contact us again.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 THMARKET. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
