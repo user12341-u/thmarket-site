@@ -116,48 +116,40 @@
 </section>
 
 <section data-bs-version="5.1" class="form5 cid-uI4Z67PNYK" id="form5-0">
-    
-    
-    <div class="container">
-        <div class="mbr-section-head">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                <strong>Request Submission Form</strong></h3>
-            <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5">Fill out the form to submit your request</h4>
-        </div>
-        <div class="row justify-content-center mt-4">
-            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://formsubmit.co/9ca1465ebd458f6324b329c8c3443675" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
-                  <input type="hidden" name="_next" value="thank-you.html">
-                  <div class="row">
-                      <!-- Detta meddelande visas när formuläret skickas in framgångsrikt -->
-                      <div id="success-message" class="alert alert-success col-12" style="display: none;">
-                          <strong>Thank you for your submission!</strong> We will review your request and get back to you shortly.
-                      </div>
-              
-                      <!-- Felmeddelande om något går fel -->
-                      <div id="error-message" class="alert alert-danger col-12" style="display: none;">
-                          Something went wrong. Please try again.
-                      </div>
-                  </div>
-                    <div class="dragArea row">
-                        <div class="col-md col-sm-12 form-group mb-3" data-for="name">
-                            <input type="text" name="name" placeholder="Company Name" data-form-field="name" class="form-control" value="" id="name-form5-0">
-                        </div>
-                        <div class="col-md col-sm-12 form-group mb-3" data-for="email">
-                            <input type="email" name="email" placeholder="E-mail" data-form-field="email" class="form-control" value="" id="email-form5-0">
-                        </div>
-                        <div class="col-12 form-group mb-3" data-for="url">
-                            <input type="url" name="url" placeholder="Destination (Country, City)" data-form-field="url" class="form-control" value="" id="url-form5-0">
-                        </div>
-                        <div class="col-12 form-group mb-3" data-for="textarea">
-                            <textarea name="textarea" placeholder="Product Info (Name, Specifications, etc.)" data-form-field="textarea" class="form-control" id="textarea-form5-0"></textarea>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-primary display-7">Submit Request</button></div>
-                    </div>
-                </form>
-            </div>
-        </div>
+  <div class="container">
+    <div class="mbr-section-head">
+      <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+        <strong>Request Submission Form</strong>
+      </h3>
+      <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5">
+        Fill out the form to submit your request
+      </h4>
     </div>
+    <div class="row justify-content-center mt-4">
+      <div class="col-lg-8 mx-auto mbr-form">
+        <form action="https://formsubmit.co/9ca1465ebd458f6324b329c8c3443675" method="POST" class="mbr-form form-with-styler">
+          <input type="hidden" name="_next" value="thank-you.html">
+          <div class="dragArea row">
+            <div class="col-md col-sm-12 form-group mb-3">
+              <input type="text" name="name" placeholder="Company Name" class="form-control" id="name-form5-0" required>
+            </div>
+            <div class="col-md col-sm-12 form-group mb-3">
+              <input type="email" name="email" placeholder="E-mail" class="form-control" id="email-form5-0" required>
+            </div>
+            <div class="col-12 form-group mb-3">
+              <input type="text" name="url" placeholder="Destination (Country, City)" class="form-control" id="textarea-form5-0" required>
+            </div>
+            <div class="col-12 form-group mb-3">
+              <textarea name="textarea" placeholder="Product Info (Name, Specifications, etc.)" class="form-control" id="textarea-form5-0" required></textarea>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
+              <button type="submit" class="btn btn-primary display-7">Submit Request</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section data-bs-version="5.1" class="contacts1 cid-uJaX3pqO1U" id="contacts1-4">
