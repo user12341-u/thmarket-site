@@ -126,12 +126,19 @@
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-            <form action="https://formsubmit.co/info@thmarket.net" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
-                    <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thank you for your submission! We will review your request and get back to you shortly.</div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!
-                        </div>
-                    </div>
+                <form action="https://formsubmit.co/info@thmarket.net" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
+                  <input type="hidden" name="_next" value="thankyou.html">
+                  <div class="row">
+                      <!-- Detta meddelande visas när formuläret skickas in framgångsrikt -->
+                      <div id="success-message" class="alert alert-success col-12" style="display: none;">
+                          <strong>Thank you for your submission!</strong> We will review your request and get back to you shortly.
+                      </div>
+              
+                      <!-- Felmeddelande om något går fel -->
+                      <div id="error-message" class="alert alert-danger col-12" style="display: none;">
+                          Something went wrong. Please try again.
+                      </div>
+                  </div>
                     <div class="dragArea row">
                         <div class="col-md col-sm-12 form-group mb-3" data-for="name">
                             <input type="text" name="name" placeholder="Company Name" data-form-field="name" class="form-control" value="" id="name-form5-0">
