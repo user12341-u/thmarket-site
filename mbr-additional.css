@@ -1191,6 +1191,31 @@ a {
 .cid-uJaX3pqO1U .mbr-section-title {
   color: #05386b;
 }
+
+.cid-uJQQ2cPcNt {
+  padding-top: 9rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
+}
+.cid-uJQQ2cPcNt .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uJQQ2cPcNt .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uJQQ2cPcNt .mbr-section-title {
+  color: #05386b;
+}
+.cid-uJQQ2cPcNt .mbr-section-subtitle {
+  color: #05386b;
+}
+
 .cid-uInr5ocJZp {
   padding-top: 30px;
   padding-bottom: 30px;
