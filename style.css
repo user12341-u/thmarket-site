@@ -16,6 +16,15 @@ button {
   border-color: transparent;
 }
 
+/* Lägg till den här CSS-koden till din externa styles.css-fil */
+.mbr-section-btn a {
+  pointer-events: auto; /* Tillåt normala klick */
+}
+
+.mbr-section-btn a:hover {
+  pointer-events: none; /* Inaktiverar hover-effekten som visar länk i statusfältet */
+}
+
 section,
 .container,
 .container-fluid {
